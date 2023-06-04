@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+   
+}
+h1{
+    text-align: center;
+    background: #555;
+    color: aliceblue;
+    margin-top: auto;
+}
+@media only screen and (max-width: 600px) {
+    .playlist-date {
+        display: none !important;
+    }
+    .playlist-row{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .playlist-arena{
+        width: 30% !important;
+    }
+    
+}
+.icon-search{
+    display: flex;
+    justify-content: end;
+    margin-top: -24px;
+}
+
+.main-head {
+    background-image: url(images/812556.jpg);
+    background-color: rgba(0, 0, 0, .2);
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+
+header h1 {
+    padding-top: 70px;
+    font-family: sans-serif;
+}
+
+.content-section {
+    margin: .5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.about-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.btn {
+    cursor: pointer;
+    color: coral;
+    padding: 10px;
+    border: solid 1px grey;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+
+}
+.btn:hover{
+    background-color:darkgray;
+    cursor: pointer;
+    
+    
+}
+
+.btn-header {
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border: solid 1px grey;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.btn-header:hover {
+    background-color: darkslategray;
+}
+
+.playlist-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+}
+.playlist-date {
+    display: inline-block;
+    color: #555;
+    font-weight: bold;
+    padding-right: .5em;
+    width: 29%;
+}
+
+.playlist-item {
+    display: inline-block;
+    padding-right: .5em;
+    width: 30%;
+    align-items: center;
+}
+
+.playlist-arena {
+    display: inline-block;
+    padding-right: .5em;
+    width: 25%;
+}
+
+
+
+.playlist-row:last-child {
+    border-bottom: none;
+}
+
+.btn-play {
+    cursor: pointer;
+    
+    background-color: rgba(255, 255, 255, .4); 
+    color:orange;
+    padding: 5px 20px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    height: 33px;
+    width: 55px;
+    font-size: 18px;
+}
+.btn-store {
+    cursor: pointer;
+    
+    background-color: blueviolet;
+    color:white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.btn-play:hover {
+    background-color:chocolate;
+}
+
+
+
+  
+.play {
+    
+    align-items: center;
+    height: 50px;
+    
+}
+
+
